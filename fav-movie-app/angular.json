@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fav-movie-app": {
+    "task-3-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fav-movie-app",
+            "outputPath": "dist/task-3-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fav-movie-app:build:production"
+              "browserTarget": "task-3-angular:build:production"
             },
             "development": {
-              "browserTarget": "fav-movie-app:build:development"
+              "browserTarget": "task-3-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fav-movie-app:build"
+            "browserTarget": "task-3-angular:build"
           }
         },
         "test": {
