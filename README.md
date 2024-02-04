@@ -1,5 +1,3 @@
-markdown
-Copy code
 # React Text Editor
 
 A simple React Text Editor with file upload functionality.
@@ -19,17 +17,14 @@ A simple React Text Editor with file upload functionality.
 Navigate to the project directory:
 
 bash
-Copy code
 cd react-text-editor
 Install dependencies:
 
 bash
-Copy code
 npm install
 Run the application:
 
 bash
-Copy code
 npm start
 The app will be accessible at http://localhost:3000.
 
@@ -44,6 +39,5 @@ License
 This project is licensed under the MIT License.
 
 vbnet
-Copy code
 
 Adjust the sections as needed and include any additional information that might
