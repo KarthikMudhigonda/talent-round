@@ -1,0 +1,21 @@
+<div class="slideshow">
+    <div class="movie-item" *ngIf="movies.length > 0">
+        <div class="movie-item-inner">
+            <img class="movie-image" [src]="movies[currentSlideIndex].poster" alt="" />
+            <div class="movie-details">
+                <h3 class="movie-title">{{ movies[currentSlideIndex].name }}</h3>
+                <p class="movie-release">{{ movies[currentSlideIndex].release }}</p>
+                <p class="movie-avail">Is available: {{ movies[currentSlideIndex].isAvailable }}</p>
+                <p class="movie-ott">{{ movies[currentSlideIndex].ott }}</p>
+            </div>
+            <div class="btn">
+                <button (click)="cart(movies[currentSlideIndex])">Add to cart</button>
+                <button (click)="buy(movies[currentSlideIndex].id)">Buy</button>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <button (click)="prevSlide()">Previous</button>
+        <button (click)="nextSlide()">Next</button>
+    </div>
+</div>

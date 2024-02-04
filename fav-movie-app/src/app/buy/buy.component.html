@@ -1,0 +1,28 @@
+<div *ngIf="movie">
+    <div class="movie-details">
+        <img [src]="movie.poster" alt="{{ movie.name }} Poster" class="poster">
+        <h2>{{ movie.name }}</h2>
+        <p>Release Year: {{ movie.release }}</p>
+        <p>Genre: {{ movie.genre }}</p>
+        <p>Streaming on: {{ movie.ott }}</p>
+        <p>Price: ${{ movie.price }}</p>
+        <p *ngIf="movie.isAvailable; else notAvailable">Available Now!</p>
+        <ng-template #notAvailable>
+            <p>Currently not available for streaming.</p>
+        </ng-template>
+    </div>
+
+    <div class="place-order">
+        <h3>Place Your Order</h3>
+        <button type="submit" (click)="placeOrder()">Place Order</button>
+    </div>
+
+    <div class="pop" *ngIf="ordered">
+        <div class="popup">
+            <p (click)="closepop()" class="cross"><fa-icon [icon]="faXmark"></fa-icon> </p>
+            <p>Name: {{orderDetails.name}}</p>
+            <p>Email: {{ orderDetails.email}}</p>
+            <p>Order ID: {{ calculatedOrderID }}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="wrap">
+  <div class="search">
+    <input
+      type="text"
+      class="searchTerm"
+      placeholder="Search for your genre..."
+      (input)="onSearchInput()"
+      [(ngModel)]="searchQuery"
+    />
+    <button type="submit" class="searchButton">
+      search
+      <i class="fa fa-search"></i>
+    </button>
+    <ul *ngIf="searchResults.length > 0">
+      <li
+        *ngFor="let result of searchResults"
+        (click)="navigateToMovie(result.id)"
+      >
+        <img [src]="result.poster" alt="{{ result.name }}" />
+        <span>{{ result.name }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

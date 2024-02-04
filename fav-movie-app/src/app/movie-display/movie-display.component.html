@@ -1,0 +1,20 @@
+<div class="movie-container">
+    <div class="movie-card" *ngFor="let movie of movies" (mouseenter)="showDetails(movie)"
+        (mouseleave)="hideDetails(movie)">
+        <img src="{{ movie.poster }}" alt="{{ movie.name }}" class="movie-poster" />
+        <div class="movie-details-container">
+            <div class="movie-details">
+                <p><strong>Name:</strong> {{ movie.name }}</p>
+                <p><strong>Release:</strong> {{ movie.release }}</p>
+                <p><strong>OTT:</strong> {{ movie.ott }}</p>
+                    <div class="btn">
+                        <button (click)="cart(movie)">Add to cart</button>
+                        <button (click)="buy(movie.id)">Buy</button>
+                    </div>
+            </div>
+            <div class="close-details">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+</div>

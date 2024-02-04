@@ -1,0 +1,39 @@
+<header>
+  <div class="header-left">
+    <h1>Marvel Universe</h1>
+  </div>
+  <div class="header-right">
+    <div class="user-info">
+      <span>Welcome , {{ login?.name }}</span>
+      <span class="fa-solid cart-icon" routerLink="cart">🛒</span> &nbsp;
+    </div>
+    <nav>
+      <ul>
+        <li><a routerLink="/movies-list" *ngIf="login">Home</a></li>
+        <li>
+          <a routerLink="/movies-display" *ngIf="login">Movie Collection</a>
+        </li>
+        <li>
+          <a routerLink="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+
+        <li><a routerLink="/login" *ngIf="!login">Login</a></li>
+        <li><a routerLink="/signup" *ngIf="!login">Sign Up</a></li>
+        <i class="fa-solid fa-right-from-bracket" (click)="signout()"></i>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- <div *ngIf="menuType!=='seller'" class="nav-search">
+  <input type="text"
+  #searchInput
+  (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search Products" />
+  <button (click)="submitSearch(searchInput.value)" >Search</button>
+  <ul class="suggested-search" *ngIf="searchResult">
+    <li *ngFor="let item of searchResult">
+      <a (mousedown)="redirectToDetails(item.id)" >{{item.name}}</a>
+    </li>
+  </ul>
+</div> -->

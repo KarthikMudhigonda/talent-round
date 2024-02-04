@@ -1,0 +1,380 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "poster": "https://www.themoviedb.org/t/p/original/pD4QpqWjsC4LrfB5BkNAFLPajxv.jpg",
+      "name": "Iron Man",
+      "category": "Sci-fi",
+      "release": 2008,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_.jpg",
+      "name": "The Incredible Hulk",
+      "category": "Sci-fi marvel",
+      "release": 2008,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Sci-Fi",
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "name": "Iron Man 2",
+      "category": "Sci-fi marvel",
+      "release": 2010,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "name": "Thor",
+      "category": "Sci-fi marvel",
+      "release": 2011,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Fantasy",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "poster": "https://m.media-amazon.com/images/I/51wGo96+fpL.jpg",
+      "name": "Captain America: The First Avenger",
+      "category": "Sci-fi marvel",
+      "release": 2011,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 6,
+      "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
+      "name": "The Avengers",
+      "category": "Sci-fi marvel",
+      "release": 2012,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_.jpg",
+      "name": "Iron Man 3",
+      "category": "Sci-fi marvel",
+      "release": 2013,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 8,
+      "poster": "https://m.media-amazon.com/images/I/71LWvG06O3L._AC_UF1000,1000_QL80_.jpg",
+      "name": "Thor: The Dark World",
+      "category": "Sci-fi marvel",
+      "release": 2013,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Fantasy",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "poster": "https://m.media-amazon.com/images/I/512BsbgYp6L.jpg",
+      "name": "Captain America: The Winter Soldier",
+      "category": "Sci-fi marvel",
+      "release": 2014,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Thriller",
+      "price": 9.99
+    },
+    {
+      "id": 10,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_FMjpg_UX1000_.jpg",
+      "name": "Guardians of the Galaxy",
+      "category": "Sci-fi marvel",
+      "release": 2014,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 11,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg",
+      "name": "Avengers: Age of Ultron",
+      "category": "Sci-fi marvel",
+      "release": 2015,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 12,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_FMjpg_UX1000_.jpg",
+      "name": "Ant-Man",
+      "category": "Sci-fi marvel",
+      "release": 2015,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Sci-Fi",
+      "price": 9.99
+    },
+    {
+      "id": 13,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_FMjpg_UX1000_.jpg",
+      "name": "Captain America: Civil War",
+      "category": "Sci-fi marvel",
+      "release": 2016,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 14,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_FMjpg_UX1000_.jpg",
+      "name": "Doctor Strange",
+      "category": "Sci-fi marvel",
+      "release": 2016,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Fantasy",
+      "price": 9.99
+    },
+    {
+      "id": 15,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_FMjpg_UX1000_.jpg",
+      "name": "Guardians of the Galaxy Vol. 2",
+      "category": "Sci-fi marvel",
+      "release": 2017,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 16,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGQ5YTM3YzctOTVmMC00OGIyLWFkZTYtMWYwOWZhMjA2MWMwXkEyXkFqcGdeQXVyMjUyMTE5MA@@._V1_.jpg",
+      "name": "Spider-Man: Homecoming",
+      "category": "Sci-fi marvel",
+      "release": 2017,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 17,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_FMjpg_UX1000_.jpg",
+      "name": "Thor: Ragnarok",
+      "category": "Sci-fi marvel",
+      "release": 2017,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Fantasy",
+      "price": 9.99
+    },
+    {
+      "id": 18,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_FMjpg_UX1000_.jpg",
+      "name": "Black Panther",
+      "category": "Sci-fi marvel",
+      "release": 2018,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 19,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+      "name": "Avengers: Infinity War",
+      "category": "Sci-fi marvel",
+      "release": 2018,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99
+    },
+    {
+      "id": 20,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "name": "Ant-Man and The Wasp",
+      "category": "Sci-fi marvel",
+      "release": 2018,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Sci-Fi",
+      "price": 9.99
+    },
+    {
+      "id": 21,
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9259673_p_v8_ag.jpg",
+      "name": "Man of Steel",
+      "category": "Superhero dc",
+      "release": 2013,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Sci-fi",
+      "price": 12.99
+    },
+    {
+      "id": 22,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "name": "Batman v Superman: Dawn of Justice",
+      "category": "Superhero dc",
+      "release": 2016,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Adventure",
+      "price": 14.99
+    },
+    {
+      "id": 23,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "name": "Wonder Woman",
+      "category": "Superhero dc",
+      "release": 2017,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Fantasy",
+      "price": 11.99
+    },
+    {
+      "id": 24,
+      "poster": "https://m.media-amazon.com/images/M/MV5BODgwMzA0NGUtNGQ2MC00MzA5LTlhNWUtMmM5YmJjMzYwMzc1XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
+      "name": "Aquaman",
+      "category": "Superhero dc",
+      "release": 2018,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Adventure",
+      "price": 13.99
+    },
+    {
+      "id": 25,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWZhZjE4NGQtODg5Ni00MjQ1LWJmMzAtNzQ2N2M1NzYzMDJkXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_.jpg",
+      "name": "Shazam!",
+      "category": "Superhero dc",
+      "release": 2019,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Comedy",
+      "price": 10.99
+    },
+    {
+      "id": 26,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      "name": "Birds of Prey dc",
+      "category": "Superhero",
+      "release": 2020,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Crime",
+      "price": 12.99
+    },
+    {
+      "id": 27,
+      "poster": "https://images.moviesanywhere.com/607cde33edb94043a969a6594c536c82/474bedac-a2cc-466c-8133-aaadefece01f.jpg",
+      "name": "Wonder Woman 1984",
+      "category": "Superhero dc",
+      "release": 2020,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Fantasy",
+      "price": 15.99
+    },
+    {
+      "id": 28,
+      "poster": "https://images.moviesanywhere.com/897ae723da11ee8a2df0aa8191989c24/6547ea47-9560-4f2d-963f-2348afb0bd97.jpg",
+      "name": "Zack Snyder's Justice League",
+      "category": "Superhero dc",
+      "release": 2021,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Adventure",
+      "price": 16.99
+    },
+    {
+      "id": 29,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzUzMjkxMzItMTc0MS00MjAxLWFiZGMtY2YwOGM2Yjk1ZjBmXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_FMjpg_UX1000_.jpg",
+      "name": "The Suicide Squad",
+      "category": "Superhero dc",
+      "release": 2021,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Adventure",
+      "price": 14.99
+    },
+    {
+      "id": 30,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "name": "Black Adam",
+      "category": "Superhero dc",
+      "release": 2022,
+      "isAvailable": true,
+      "ott": "HBO Max",
+      "genre": "Action / Adventure",
+      "price": 17.99
+    }
+  ],
+  "cartData": [
+    {
+      "id": 3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "name": "Iron Man 2",
+      "category": "Sci-fi marvel",
+      "release": 2010,
+      "isAvailable": true,
+      "ott": "Disney+",
+      "genre": "Action / Adventure",
+      "price": 9.99,
+      "showDetails": true
+    }
+  ],
+  "users": [
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 1
+    },
+    {
+      "name": "b",
+      "email": "b",
+      "password": "b",
+      "id": 2
+    },
+    {
+      "name": "Karthik Mudhigonda",
+      "email": "karthikmudhigonda1@gmail.com",
+      "password": "a",
+      "id": 3
+    },
+    {
+      "name": "aa",
+      "email": "aa",
+      "password": "aa",
+      "id": 4
+    },
+    {
+      "name": "Karthik Mudhigonda",
+      "email": "aa",
+      "password": "aa",
+      "id": 5
+    }
+  ]
+}

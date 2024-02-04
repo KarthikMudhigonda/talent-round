@@ -1,0 +1,34 @@
+<ng-container *ngIf="cartItems?.length>0 else showEmpty">
+    <div *ngFor="let cartItem of cartItems">
+        <div class="movie-card">
+            <img class="movie-image" [src]="cartItem.poster" [attr.alt]="cartItem.name">
+            <div class="movie-details">
+                <h3 class="movie-title"> {{cartItem.name}}</h3>
+                <p class="movie-price">$ {{cartItem.price}}</p>
+                <p class="movie-description">{{cartItem.release}}</p>
+                <p class="movie-category">{{cartItem.ott}}</p>
+            </div>
+            <button (click)="removeItem(cartItem.id)">Remove</button>
+        </div>
+    </div>
+
+    <div>
+        <p>Total:{{total()}}</p>
+    </div>
+    <div class="place-order">
+        <h3>Place Your Order</h3>
+        <button type="submit" (click)="placeOrder()">Place Order</button>
+    </div>
+
+    <div class="pop" *ngIf="ordered">
+        <div class="popup">
+            <p (click)="closepop()" class="cross"><fa-icon [icon]="faXmark"></fa-icon> </p>
+            <p>Name: {{orderDetails.name}}</p>
+            <p>Email: {{ orderDetails.email}}</p>
+            <p>Order ID: {{ calculatedOrderID }}</p>
+        </div>
+    </div>
+</ng-container>
+<ng-template #showEmpty>
+    <h1 class="empty-cart">Your cart is empty</h1>
+</ng-template>
