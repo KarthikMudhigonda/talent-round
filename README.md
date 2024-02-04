@@ -18,7 +18,7 @@ A simple React text editor with file drop functionality and the ability to save 
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/your-username/react-text-editor.git
 cd react-text-editor
 
