@@ -27,12 +27,21 @@ export class MovieDisplayComponent implements OnInit {
   fetchMoviesData() {
     this.movieservice.getAllMovies().subscribe(
       (data: movies[]) => {
-        this.movies = data;
+        // Shuffle the movies array
+        this.movies = this.shuffleArray(data);
       },
       (error) => {
         console.log('Error fetching movies data:', error);
       }
     );
+  }
+
+  shuffleArray(array: any[]): any[] {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 
   showDetails(movie: movies) {
@@ -51,8 +60,8 @@ export class MovieDisplayComponent implements OnInit {
   cart(movie) {
     movie.userEmail = this.login.email;
     this.cartService.addToCart(movie).subscribe((data) => console.log(data));
-    // console.log(movie);
   }
+
   getLoginUser() {
     this.login = JSON.parse(sessionStorage.getItem('login') || '[]');
   }

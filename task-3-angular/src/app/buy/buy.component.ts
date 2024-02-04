@@ -41,7 +41,6 @@ export class BuyComponent implements OnInit {
     });
   }
   placeOrder() {
-    // console.log('Order placed:', this.orderDetails);
     this.ordered = true;
   }
 

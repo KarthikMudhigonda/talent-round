@@ -9,7 +9,7 @@ import { CartComponent } from './cart/cart.component';
 import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
-  { path: '', component: LoginComponent },
+  { path: '', component: MovieDisplayComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'movies-list', component: MovieListComponent },
   { path: 'movies-display', component: MovieDisplayComponent },

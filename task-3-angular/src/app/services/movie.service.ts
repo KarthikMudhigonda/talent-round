@@ -21,10 +21,8 @@ export class MovieService {
   }
 
   searchMovies(query: string): Observable<movies[]> {
-    // Adjust the API endpoint for search as needed
     const searchUrl = `${this.url}?q=${query}`;
 
-    // You can customize the search parameters based on your server's API
     const params = new HttpParams().set('query', query);
 
     return this.http.get<movies[]>(searchUrl, { params });
