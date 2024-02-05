@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 1
+    },
+    {
+      "name": "b",
+      "email": "b",
+      "password": "b",
+      "id": 2
+    },
+    {
+      "name": "Karthik Mudhigonda",
+      "email": "karthikmudhigonda1@gmail.com",
+      "password": "a",
+      "id": 3
+    },
+    {
+      "name": "aa",
+      "email": "aa",
+      "password": "aa",
+      "id": 4
+    }
+  ],
+  "data": [
+    {
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222831;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+.fa-solid {
+  font-size: 25px;
+  color: white;
+}
+
+.user-info {
+  cursor: pointer;
+}
+
+/* Add this style at the end of your existing CSS */
+
+.search-icon {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.search-popup input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-popup button {
+  padding: 8px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
