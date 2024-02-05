@@ -52,26 +52,16 @@ Make sure you have [Node.js](https://nodejs.org/) (v14 or higher) and [npm](http
 
 ### Installation
 
-bash
-Copy code
-cd frontend
+cd task-3-angular
 npm install -g @angular/cli
 npm install
 ng serve
 The application will be available at http://localhost:4200/.
 
 Backend (Node.js)
-bash
-Copy code
-cd backend
 npm install
 npm run server
 The backend server will start at http://localhost:3000/.
 
-Running Both Frontend and Backend Concurrently
-bash
-Copy code
-npm install -g concurrently
-npm start
 The application will be accessible at http://localhost:4200/. The backend API will be available at http://localhost:3000/.
 
