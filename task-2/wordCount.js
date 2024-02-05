@@ -1,6 +1,7 @@
 const readline = require("readline");
 const fs = require("fs");
 
+//Creating a readline interface for reading input from the user
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -8,6 +9,7 @@ const rl = readline.createInterface({
 
 async function getInputText() {
   console.log("Enter 'file' to read from a file or 'text' to enter text:");
+  //Asking user for choice
   const choice = await askQuestion("Your choice: ");
 
   if (choice.toLowerCase() === "file") {
@@ -23,6 +25,7 @@ async function getInputText() {
   }
 }
 
+//To read text from a file
 function readTextFromFile(filePath) {
   try {
     const text = fs.readFileSync(filePath, "utf8");
@@ -32,6 +35,7 @@ function readTextFromFile(filePath) {
   }
 }
 
+//To read text manually entered by the user
 async function readTextFromInput() {
   let text = "";
   while (true) {
@@ -49,6 +53,7 @@ function countWords(text) {
     return 0;
   }
 
+  // Splitting the text into words using regular expression
   const words = text.split(/\s+/);
   return words.length;
 }
@@ -70,8 +75,11 @@ async function askQuestion(question) {
 }
 
 async function main() {
-  console.log("\n<------------------------------ WORD COUNT ------------------------------>\n");
+  console.log(
+    "\n<------------------------------ WORD COUNT ------------------------------>\n"
+  );
   try {
+    // Getting input text from the user
     const text = await getInputText();
     const totalWordCount = countWords(text);
     const uniqueWordCount = countUniqueWords(text);
